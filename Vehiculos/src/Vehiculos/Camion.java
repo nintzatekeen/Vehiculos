@@ -32,6 +32,9 @@ public class Camion extends Vehiculo {
 	public void getNumeroEjes (byte numEjes) {
 		this.numeroEjes = numEjes;
 	}
+	 public void ver() {
+		 System.out.println("Num ejes: "+numeroEjes);
+	 }
 
 }
 
